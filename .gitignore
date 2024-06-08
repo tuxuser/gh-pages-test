@@ -1,14 +1,12 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
 
 # Temporary files
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*.kicad_prl
+*.pro-bak
 *.sch-bak
 *~
 _autosave-*
@@ -27,3 +25,14 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# KiBot files
+*-drc.txt
+*-erc.txt
+**/KiBotOutput
+
+*.zip
+
+# vscode + platformio
+.pio
+.vscode/*
